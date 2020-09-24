@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", function () {
   let btn = document.getElementById("alertBtn");
   btn.addEventListener("click", function () {
     let formText = document.getElementById("myTextId").value;
-    alert('You\'ve clicked a button');
+    alert(formText);
   });
 
   //3 bgDiv EVENT LISTENER ON MOUSEENTER AND CHANGE BG COLOR
